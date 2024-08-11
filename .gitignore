@@ -1,0 +1,9 @@
+master
+packager
+packager-revoked
+archlinux-lcpu-trusted
+archlinux-lcpu-revoked
+archlinux-lcpu.gpg
+*.tar.*
+pkg
+src

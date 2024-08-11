@@ -1,0 +1,20 @@
+pkgbase = archlinux-lcpu-keyring
+	pkgdesc = Loongarch64 PGP keyring
+	pkgver = 20240810
+	pkgrel = 1
+	url = https://gitlab.archlinux.org/archlinux/archlinux-keyring/
+	install = archlinux-lcpu-keyring.install
+	arch = any
+	license = GPL-3.0-or-later
+	checkdepends = python-coverage
+	checkdepends = python-pytest
+	makedepends = git
+	makedepends = python
+	makedepends = sequoia-sq
+	makedepends = pkgconf
+	makedepends = systemd
+	depends = pacman
+	source = archlinux-lcpu-keyring::git+https://github.com/lcpu-club/archlinux-lcpu-keyring.git#tag=20240810
+	validpgpkeys = archlinux-lcpu.gpg
+
+pkgname = archlinux-lcpu-keyring
