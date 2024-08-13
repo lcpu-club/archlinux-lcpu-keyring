@@ -1,6 +1,6 @@
 pkgbase = archlinux-lcpu-keyring
 	pkgdesc = Arch Linux group of LCPU's PGP keyring
-	pkgver = 20240811
+	pkgver = 20240813
 	pkgrel = 2
 	url = https://github.com/lcpu-club
 	install = archlinux-lcpu-keyring.install

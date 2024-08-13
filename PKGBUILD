@@ -2,7 +2,7 @@
 
 pkgname='archlinux-lcpu-keyring'
 pkgver=20240813
-pkgrel=1
+pkgrel=2
 pkgdesc="Arch Linux group of LCPU's PGP keyring"
 arch=('any')
 url='https://github.com/lcpu-club'
