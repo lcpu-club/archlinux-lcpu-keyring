@@ -1,12 +1,12 @@
 # Maintainer: Zhou Qiankang <wszqkzqk@qq.com>
 
 pkgname='archlinux-lcpu-keyring'
-pkgver=20240813
-pkgrel=2
+pkgver=20240830
+pkgrel=1
 pkgdesc="Arch Linux group of LCPU's PGP keyring"
 arch=('any')
 url='https://github.com/lcpu-club'
-license=('GPL')
+license=('GPL-3.0-or-later')
 depends=("pacman" "archlinux-keyring")
 install="archlinux-lcpu-keyring.install"
 source=("Makefile"
