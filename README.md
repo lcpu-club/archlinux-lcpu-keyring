@@ -8,7 +8,7 @@ This repository contains the PGP keyring for Arch Linux LCPU community repositor
 
 To add a new key, please submit a PR following these steps:
 
-1. Submit your public key to a public keyserver, ensuring that `gpg --keyserver --recv-key <fingerprint>` can retrieve your public key.
+1. Submit your public key to a public keyserver, ensuring that `gpg --keyserver --recv-keys <fingerprint>` can retrieve your public key.
 2. Add your public key fingerprint to `master-keyids` in the following format:
 ```
 <fingerprint>    <username>    <keyserver>
@@ -32,7 +32,7 @@ makepkg --printsrcinfo > .SRCINFO
 
 如需添加新 key ，请按照以下方式提出 PR ：
 
-1. 将您的 pubkey 提交到某个公开的 keyserver ，确保 `gpg --keyserver --recv-key <fingerprint>` 可接收到您的 pubkey 。
+1. 将您的 pubkey 提交到某个公开的 keyserver ，确保 `gpg --keyserver --recv-keys <fingerprint>` 可接收到您的 pubkey 。
 2. 将您的 pubkey fingerprint 填入 master-keyids ，格式为
 ```
 <fingerprint>    <username>    <keyserver>
